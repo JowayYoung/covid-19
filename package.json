@@ -1,0 +1,22 @@
+{
+	"name": "react-hooks",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@hot-loader/react-dom": "16.13.0",
+		"prop-types": "15.7.2",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-hot-loader": "4.12.21",
+		"recharts": "1.8.5",
+		"trample": "0.1.0"
+	},
+	"devDependencies": {},
+	"engines": {
+		"node": ">= 10.0.0",
+		"npm": ">= 5.6.0"
+	}
+}

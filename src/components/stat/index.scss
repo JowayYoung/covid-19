@@ -1,0 +1,24 @@
+.stat-component {
+	margin-top: 50px;
+	h3 {
+		font-weight: normal;
+		font-size: 20px;
+		color: #999;
+	}
+	ul {
+		margin-top: 30px;
+		width: 1200px;
+	}
+}
+.stat-item-component {
+	flex: 1;
+	h4 {
+		font-size: 22px;
+		color: #fff;
+	}
+	span {
+		display: block;
+		margin-top: 15px;
+		font-size: 18px;
+	}
+}
