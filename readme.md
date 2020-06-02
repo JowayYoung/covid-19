@@ -73,4 +73,4 @@
 
 **关注公众号`IQ前端`，一个专注于CSS/JS开发技巧的前端公众号，更多前端小干货等着你喔**
 
-![IQ前端](https://yangzw.vip/static/frontend/account/IQ前端公众号.jpg)
+![](https://yangzw.vip/static/frontend/account/IQ前端公众号.jpg)
