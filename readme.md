@@ -4,6 +4,8 @@
 
 预览地址：[https://yangzw.vip/covid-19](https://yangzw.vip/covid-19)
 
+![covid-19](https://user-gold-cdn.xitu.io/2020/6/2/17273da0e3a5f020?imageView2/2/w/800/q/85)
+
 笔者写这个项目是为了让入门React Hooks的同学能快速学会和应用这个强大的React特性，项目虽小但五脏俱全，灵活运用React Hooks开发技巧，将Hook贯穿到整个项目中，结合实际场景解决实际问题。
 
 本项目代码简洁条理清晰，非常适合前端小白和对React Hooks感兴趣的小伙伴学习，如果你是大神请忽略吧。整个项目使用到以下Hook，这几个Hook已经能完成大部分实际应用需求了。
