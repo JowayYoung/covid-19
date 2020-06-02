@@ -16,8 +16,8 @@ const INTERFACE = {
 const INTERVAL = 1000 * 60 * 60;
 
 const TITLE = {
-	active: "累积确诊病例",
-	cases: "现存确诊病例",
+	cases: "累积确诊病例",
+	active: "现存确诊病例", // eslint-disable-line
 	deaths: "累积死亡病例",
 	recovered: "累积治愈病例"
 };
