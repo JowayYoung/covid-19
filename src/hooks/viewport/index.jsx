@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import { AppContext } from "../../hooks/store";
+import { AppContext } from "../store";
 
 function useViewport() {
 	const { size: { height, width } } = useContext(AppContext);

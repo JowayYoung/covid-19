@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts";
 import PropTypes from "prop-types";
 
 import "./index.scss";
 import { COLOR, TITLE } from "../../utils/getting";
 import { TransformHistory } from "../../utils/setting";
-import { AppContext } from "../../hooks/store";
+import { useStore } from "../../hooks/store";
 
 function HistoryItem({ change, data, dataKey, lastday, title }) {
 	const color = COLOR[dataKey];
@@ -50,7 +50,7 @@ HistoryItem.defaultProps = {
 };
 
 function History({ data }) {
-	const { dispatch, state: { country, lastday } } = useContext(AppContext);
+	const { dispatch, state: { country, lastday } } = useStore();
 	const change = (e, key) => dispatch({ day: +e.target.value, key, type: "SET_LASTDAY" });
 	const view = Object.entries(lastday).map(v => (
 		<HistoryItem

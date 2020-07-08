@@ -1,9 +1,22 @@
 {
-	"name": "react-hooks",
+	"name": "covid-19",
 	"version": "1.0.0",
 	"description": "",
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"react",
+		"hooks",
+		"react-hooks"
+	],
+	"author": {
+		"name": "Joway Young",
+		"phone": "18819249731",
+		"email": "young.joway@aliyun.com"
+	},
+	"homepage": "https://github.com/JowayYoung",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JowayYoung/covid-19"
+	},
 	"license": "MIT",
 	"dependencies": {
 		"@hot-loader/react-dom": "16.13.0",

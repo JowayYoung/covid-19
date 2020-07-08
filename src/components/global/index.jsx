@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from "recharts";
 import PropTypes from "prop-types";
 
 import "./index.scss";
 import { COLOR } from "../../utils/getting";
-import { AppContext } from "../../hooks/store";
+import { useStore } from "../../hooks/store";
 
 function Global({ data }) {
-	const { dispatch, state: { key } } = useContext(AppContext);
+	const { dispatch, state: { key } } = useStore();
 	const select = ({ activeLabel = "" } = {}) => activeLabel && dispatch({
 		country: activeLabel,
 		type: "SET_COUNTRY"

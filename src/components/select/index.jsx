@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 
 import "./index.scss";
-import { AppContext } from "../../hooks/store";
+import { useStore } from "../../hooks/store";
 
 function Select() {
-	const { dispatch } = useContext(AppContext);
+	const { dispatch } = useStore();
 	const change = e => dispatch({ key: e.target.value, type: "SET_KEY" });
 	return (
 		<div className="select-component">
