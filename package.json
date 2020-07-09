@@ -25,7 +25,7 @@
 		"react-dom": "16.13.1",
 		"react-hot-loader": "4.12.21",
 		"recharts": "1.8.5",
-		"trample": "0.1.0"
+		"trample": "0.2.1"
 	},
 	"devDependencies": {},
 	"engines": {
